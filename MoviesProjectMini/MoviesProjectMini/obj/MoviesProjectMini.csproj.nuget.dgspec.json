@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pc\\Documents\\GitHub\\ASP-NhuHoangMinhDuc\\ASP-NhuDuc\\ASP-Core\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj": {}
+    "C:\\Users\\Pc\\Downloads\\practiceASPCoreMVC-master\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pc\\Documents\\GitHub\\ASP-NhuHoangMinhDuc\\ASP-NhuDuc\\ASP-Core\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj": {
+    "C:\\Users\\Pc\\Downloads\\practiceASPCoreMVC-master\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pc\\Documents\\GitHub\\ASP-NhuHoangMinhDuc\\ASP-NhuDuc\\ASP-Core\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
+        "projectUniqueName": "C:\\Users\\Pc\\Downloads\\practiceASPCoreMVC-master\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
         "projectName": "MoviesProjectMini",
-        "projectPath": "C:\\Users\\Pc\\Documents\\GitHub\\ASP-NhuHoangMinhDuc\\ASP-NhuDuc\\ASP-Core\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
+        "projectPath": "C:\\Users\\Pc\\Downloads\\practiceASPCoreMVC-master\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
         "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pc\\Documents\\GitHub\\ASP-NhuHoangMinhDuc\\ASP-NhuDuc\\ASP-Core\\MoviesProjectMini\\MoviesProjectMini\\obj\\",
+        "outputPath": "C:\\Users\\Pc\\Downloads\\practiceASPCoreMVC-master\\MoviesProjectMini\\MoviesProjectMini\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,11 +43,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.0, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.design": {
               "target": "Package",
               "version": "[3.1.0, )"
             }

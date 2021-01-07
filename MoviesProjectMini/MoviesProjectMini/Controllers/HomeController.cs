@@ -11,27 +11,19 @@ namespace MoviesProjectMini.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        //public HomeController(ILogger<HomeController> logger)
-        //{
-        //    _logger = logger;
-        //}
-
-        public IActionResult Index()
+        private IStoreRespository respository;
+        public int PageSize = 4;
+        public HomeController(IStoreRespository repo)
         {
-            return View();
+            respository = repo;
         }
 
-        //public IActionResult Privacy()
-        //{
-        //    return View();
-        //}
+        //Render all:
+        //public IActionResult Index() => View(respository.Movies);
 
-        //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        //public IActionResult Error()
-        //{
-        //    return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        //}
+        public ViewResult Index(int moviePage = 1)
+            => View(respository.Movies
+                .OrderBy(p => p.MovieID)
+                .Skip((moviePage - 1) * PageSize).Take(PageSize));
     }
 }

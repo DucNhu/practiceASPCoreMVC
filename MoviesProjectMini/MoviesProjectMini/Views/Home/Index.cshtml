@@ -1,8 +1,36 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@{ ViewData["Title"] = "Home Page"; }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<div class="row row-cols-1 row-cols-md-3">
+    @model IQueryable<Movie>
+
+    @foreach (var p in Model)
+    {
+
+<div class="col mb-4">
+    <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h6 class="card-title box-title">@p.Name | <span>@p.Title</span></h6>
+            
+            <p class="card-text"><a href=@p.link>View Now</a><br />@p.Price.ToString("c")</p>
+        </div>
+    </div>
+</div>}
+
+
+
+
+
+</div>
+
+
+<ul class="d-flex text-center justify-content-center">
+    <li class="mx-3"><a href="https://localhost:44365/?moviePage=1">1</a></li>
+    <li class="mx-3"><a href="https://localhost:44365/?moviePage=2">2</a></li>
+    <li class="mx-3"><a href="https://localhost:44365/?moviePage=3">3</a></li>
+</ul>
