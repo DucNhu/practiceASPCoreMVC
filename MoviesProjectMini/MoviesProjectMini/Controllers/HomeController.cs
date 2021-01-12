@@ -13,7 +13,7 @@ namespace MoviesProjectMini.Controllers
     public class HomeController : Controller
     {
         private IStoreRespository respository;
-        public int PageSize = 4;
+        public int PageSize = 1;
         public HomeController(IStoreRespository repo)
         {
             respository = repo;

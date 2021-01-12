@@ -3,11 +3,10 @@
 @model MoviesListViewModel
 
 @foreach (var p in Model.Movies)
-{
-    <partial name="Component/MovieSummary" model="p" />
-}" 
-<div page-model="@Model.PagingInfo" page-action="Index" Page-Classes-Enabled="true"
-     Page-Class="p-2 rounded border m-2" Page-Class-Normal="bg-white text-dark" Page-Class-Selected="bg-secondary text-white" class="col-12"></div>
+{<partial name="Component/MovieSummary" model="p" />}
+<div page-model="@Model.PagingInfo" page-action="Index" Page-Classes-Enabled="true" 
+     Page-Class="bg-secondary text-white p-3 border rounded" Page-Class-Selected=""
+     Page-Class-Normal="bg-white text-dark"></div>
 
 
 

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ufmsP2xq+QdAqa26BupgfQJVPxASh7wx1XSq7gI0OBzJyp67gvG9VDH+jT5gzfIXM5QopeuzyZ2/RtZAFIvYXw==",
+  "dgSpecHash": "s73Fg5MItgAag5xsRWfWeFoSD+UDG2D1D8lmd8ScsxmNOVTA2DP76KnrlXxbKeQk6UWIOSaozCa/dCDBiOFbSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pc\\Documents\\GitHub\\practiceASPCoreMVC-master\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
+  "projectFilePath": "C:\\Users\\Pc\\Documents\\GitHub\\practiceASPCoreMVC\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Pc\\.nuget\\packages\\cdnjs\\0.0.0.1\\cdnjs.0.0.0.1.nupkg.sha512",
     "C:\\Users\\Pc\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Pc\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Pc\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -101,5 +102,16 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CdnJs 0.0.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CdnJs",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

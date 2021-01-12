@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "CdnJs/0.0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "4.0.5"
+        },
+        "compile": {
+          "lib/net40/CdnJs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/CdnJs.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -1511,6 +1523,18 @@
     }
   },
   "libraries": {
+    "CdnJs/0.0.0.1": {
+      "sha512": "DsnxZ7rMY6llEqdh1yiEJfKLdZ4lTI48p6SZXrCOjzk8gULzxUqwzEVKs+6x1v1j20TuVqkyQ8qX9PROdrEAPg==",
+      "type": "package",
+      "path": "cdnjs/0.0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cdnjs.0.0.0.1.nupkg.sha512",
+        "cdnjs.nuspec",
+        "lib/net40/CdnJs.dll"
+      ]
+    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -5706,6 +5730,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "CdnJs >= 0.0.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.1"
     ]
@@ -5717,11 +5742,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pc\\Documents\\GitHub\\practiceASPCoreMVC-master\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
+      "projectUniqueName": "C:\\Users\\Pc\\Documents\\GitHub\\practiceASPCoreMVC\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
       "projectName": "MoviesProjectMini",
-      "projectPath": "C:\\Users\\Pc\\Documents\\GitHub\\practiceASPCoreMVC-master\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
+      "projectPath": "C:\\Users\\Pc\\Documents\\GitHub\\practiceASPCoreMVC\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
       "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pc\\Documents\\GitHub\\practiceASPCoreMVC-master\\MoviesProjectMini\\MoviesProjectMini\\obj\\",
+      "outputPath": "C:\\Users\\Pc\\Documents\\GitHub\\practiceASPCoreMVC\\MoviesProjectMini\\MoviesProjectMini\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5753,6 +5778,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "CdnJs": {
+            "target": "Package",
+            "version": "[0.0.0.1, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -5785,5 +5814,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CdnJs 0.0.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CdnJs",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

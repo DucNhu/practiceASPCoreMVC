@@ -25,6 +25,7 @@
     ".NETCoreApp,Version=v5.0": {
       "MoviesProjectMini/1.0.0": {
         "dependencies": {
+          "CdnJs": "0.0.0.1",
           "Microsoft.EntityFrameworkCore.Design": "5.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -315,6 +316,20 @@
         },
         "compile": {
           "MoviesProjectMini.dll": {}
+        }
+      },
+      "CdnJs/0.0.0.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.1"
+        },
+        "runtime": {
+          "lib/net40/CdnJs.dll": {
+            "assemblyVersion": "0.0.0.1",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net40/CdnJs.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -3001,6 +3016,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CdnJs/0.0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DsnxZ7rMY6llEqdh1yiEJfKLdZ4lTI48p6SZXrCOjzk8gULzxUqwzEVKs+6x1v1j20TuVqkyQ8qX9PROdrEAPg==",
+      "path": "cdnjs/0.0.0.1",
+      "hashPath": "cdnjs.0.0.0.1.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
