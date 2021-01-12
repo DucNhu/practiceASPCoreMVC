@@ -35,7 +35,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "2 month ago",
 
-                        link = "https://www.youtube.com/watch?v=X-GCJwz4PnY",
+                        link = "https://www.youtube.com/embed/X-GCJwz4PnY",
 
                         Price = 2000
                     },
@@ -52,7 +52,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "2 month ago",
 
-                        link = "https://www.youtube.com/watch?v=dZQ1RAyqhs8",
+                        link = "https://www.youtube.com/embed/dZQ1RAyqhs8",
 
                         Price = 2000
                     },
@@ -69,7 +69,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "2 month ago",
 
-                        link = "https://www.youtube.com/watch?v=zENVcKkqZWg",
+                        link = "https://www.youtube.com/embed/zENVcKkqZWg",
 
                         Price = 2000
                     },
@@ -86,7 +86,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "2 month ago",
 
-                        link = "https://youtu.be/EXpdUgk5P_w",
+                        link = "https://www.youtube.com/embed/EXpdUgk5P_w",
 
                         Price = 2000
                     },
@@ -103,7 +103,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "2 month ago",
 
-                        link = "https://www.youtube.com/watch?v=X-GCJwz4PnY",
+                        link = "https://www.youtube.com/embed/watch?v=X-GCJwz4PnY",
 
                         Price = 2000
                     },
@@ -120,7 +120,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "9 month ago",
 
-                        link = "https://www.youtube.com/watch?v=X-GCJwz4PnY",
+                        link = "https://www.youtube.com/embed/watch?v=X-GCJwz4PnY",
 
                         Price = 2000
                     },
@@ -137,7 +137,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "1 month ago",
 
-                        link = "https://www.youtube.com/watch?v=PlVlWl8kKmg",
+                        link = "https://www.youtube.com/embed/watch?v=PlVlWl8kKmg",
 
                         Price = 2000
                     },
@@ -154,7 +154,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "8 month ago",
 
-                        link = "https://www.youtube.com/watch?v=j8U06veqxdU",
+                        link = "https://www.youtube.com/embed/watch?v=j8U06veqxdU",
 
                         Price = 2000
                     },
@@ -171,7 +171,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "1 month ago",
 
-                        link = "https://www.youtube.com/watch?v=Bhg-Gw953b0",
+                        link = "https://www.youtube.com/embed/watch?v=Bhg-Gw953b0",
 
                         Price = 2000
                     },
@@ -188,7 +188,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "4 year ago",
 
-                        link = "https://www.youtube.com/watch?v=bD3B1I3Zgog",
+                        link = "https://www.youtube.com/embed/watch?v=bD3B1I3Zgog",
 
                         Price = 2000
                     },
@@ -205,7 +205,7 @@ namespace MoviesProjectMini.Models
 
                          Time = "1 year ago",
 
-                         link = "https://www.youtube.com/watch?v=KKc_RMln5UY",
+                         link = "https://www.youtube.com/embed/watch?v=KKc_RMln5UY",
 
                          Price = 2000
                      },
@@ -222,7 +222,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "1 month ago",
 
-                        link = "https://www.youtube.com/watch?v=Bhg-Gw953b0",
+                        link = "https://www.youtube.com/embed/watch?v=Bhg-Gw953b0",
                         Price = 2000
                     });
                 context.SaveChanges();

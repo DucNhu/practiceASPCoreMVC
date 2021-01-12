@@ -83,3 +83,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis
 }
+
+.box-movies .movie--item iframe {
+    height: 20rem
+}
