@@ -12,29 +12,28 @@ namespace MoviesProjectMini.Controllers
 {
     public class HomeController : Controller
     {
-        private IStoreRespository respository;
-        public int PageSize = 1;
+        private IStoreRespository repository;
+        public int PageSize = 4;
+
+
         public HomeController(IStoreRespository repo)
         {
-            respository = repo;
+            repository = repo;
         }
 
-        //Render all:
-        //public IActionResult Index() => View(respository.Movies);
-
-        public ViewResult Index(int moviePage = 1)
-            => View(new MoviesListViewModel
+        public ViewResult Index(int ProductPage = 1)
+        => View(new MoviesListViewModel
+        {
+            Movies = repository.Movies
+            .OrderBy(p => p.MovieID)
+            .Skip((ProductPage - 1) * PageSize)
+            .Take(PageSize),
+            PagingInfo = new PagingInfo
             {
-                Movies = respository.Movies
-                .OrderBy(p => p.MovieID)
-                .Skip((moviePage - 1) * PageSize)
-                .Take(PageSize),
-                PagingInfo = new PagingInfo
-                {
-                    CurrentPage = moviePage,
-                    MoviesPerpage = PageSize,
-                    TotalMovies = respository.Movies.Count()
-                }
-            });
+                CurrentPage = ProductPage,
+                ItemsPerpage = PageSize,
+                TotalItems = repository.Movies.Count()
+            }
+        });
     }
 }

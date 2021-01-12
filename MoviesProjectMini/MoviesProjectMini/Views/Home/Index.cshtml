@@ -1,13 +1,10 @@
-﻿@*@{ ViewData["Title"] = "Home Page"; }*@
-
+﻿@*Sử dụng model để lấy dữ liệu truyền cho view*@
 @model MoviesListViewModel
-
 @foreach (var p in Model.Movies)
-{<partial name="Component/MovieSummary" model="p" />}
-<div page-model="@Model.PagingInfo" page-action="Index" Page-Classes-Enabled="true" 
-     Page-Class="bg-secondary text-white p-3 border rounded" Page-Class-Selected=""
+{
+    <partial name="component/ProductSummary" model="p" />
+}
+
+<div page-model="@Model.PagingInfo" page-action="Index" class="col-12 box-pageLink btn-group"
+     Page-Classes-Enabled="true" Page-Class="bg-secondary text-white p-3 border rounded" Page-Class-Selected=""
      Page-Class-Normal="bg-white text-dark"></div>
-
-
-
-

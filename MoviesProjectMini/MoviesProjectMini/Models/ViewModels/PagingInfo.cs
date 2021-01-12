@@ -7,11 +7,11 @@ namespace MoviesProjectMini.Models.ViewModels
 {
     public class PagingInfo
     {
-        public int TotalMovies { get; set; }
-        public int MoviesPerpage { get; set; }
-        public int CurrentPage { get; set; }
+        public int TotalItems { get; set; } // tong so lg spham
+        public int ItemsPerpage { get; set; } // 1 trag bnhieu sphham
+        public int CurrentPage { get; set; } // Trag hien tai
 
         public int TotalPages =>
-            (int)Math.Ceiling((decimal)TotalMovies / MoviesPerpage);
+            (int)Math.Ceiling((decimal)TotalItems / ItemsPerpage); //tong so trang lay tong so lg / spham moi trang
     }
 }

@@ -59,6 +59,10 @@ namespace MoviesProjectMini
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute("pagination",
+                    "Movies/Page{productPage}",
+                    new { Controllers = "Home", action = "Index" });
+                endpoints.MapDefaultControllerRoute();
             });
             SeedData.EnsurePopulated(app);
         }

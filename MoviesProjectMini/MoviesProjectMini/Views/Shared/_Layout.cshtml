@@ -6,7 +6,7 @@
     <title>@ViewData["Title"] - MoviesProjectMini</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link href="/resetCss/reset.css" rel="stylesheet" />
-    @*<link rel="stylesheet" href="~/css/site.css" />*@
+    <link rel="stylesheet" href="~/css/site.css" />
     @*<link href="/" rel="stylesheet" />*@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
@@ -34,9 +34,11 @@
             </div>
         </nav>
     </header>*@
-        <main role="main" class="p-5 row overflow-auto box-movies">
+    <div class="container">
+        <main role="main" class="pb-3">
             @RenderBody()
         </main>
+    </div>
 
     <footer class="border-top footer text-muted">
         <div class="container">
