@@ -14,11 +14,12 @@ namespace MoviesProjectMini.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(nullable: true),
                     Title = table.Column<string>(nullable: true),
+                    Category = table.Column<string>(nullable: true),
                     NameUser = table.Column<string>(nullable: true),
                     Views = table.Column<int>(nullable: false),
                     Time = table.Column<string>(nullable: true),
-                    link = table.Column<string>(nullable: true),
-                    Price = table.Column<decimal>(type: "decimal(8,2)", nullable: false)
+                    link = table.Column<string>(nullable: true)
+                    //Price = table.Column<decimal>(type: "decimal(8,2)", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -4915,11 +4915,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pc\\Downloads\\practiceASPCoreMVC-master\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
+      "projectUniqueName": "C:\\Users\\Pc\\Documents\\GitHub\\practiceASPCoreMVC\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
       "projectName": "MoviesProjectMini",
-      "projectPath": "C:\\Users\\Pc\\Downloads\\practiceASPCoreMVC-master\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
+      "projectPath": "C:\\Users\\Pc\\Documents\\GitHub\\practiceASPCoreMVC\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
       "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pc\\Downloads\\practiceASPCoreMVC-master\\MoviesProjectMini\\MoviesProjectMini\\obj\\",
+      "outputPath": "C:\\Users\\Pc\\Documents\\GitHub\\practiceASPCoreMVC\\MoviesProjectMini\\MoviesProjectMini\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -28,6 +28,8 @@ namespace MoviesProjectMini.Models
 
                         Title = "Mr. Siro x Gray x Wind (Official Music Video)",
 
+                        Category = "Rap",
+
                         NameUser = "Mr.Siro Official",
 
                         Views = 2326236,
@@ -42,6 +44,7 @@ namespace MoviesProjectMini.Models
                         Name = "Rap Bài Thơ Việt Bắc FUll Trọn Bài",
 
                         Title = "Mạnh Hakyno",
+                        Category = "Hot",
 
                         NameUser = "Mr.Siro Official",
 
@@ -57,6 +60,7 @@ namespace MoviesProjectMini.Models
                         Name = "B.S.N.L 2 - B Ray ft. Young H",
 
                         Title = "( MASEW MIX )",
+                        Category = "Hot",
 
                         NameUser = "xXx",
 
@@ -72,7 +76,7 @@ namespace MoviesProjectMini.Models
                         Name = "MASEW | NÀNG THƠ",
 
                         Title = "ft. Ý Tiên | Official MV",
-
+                        Category = "Hot",
                         NameUser = "Masew",
 
                         Views = 2326236,
@@ -87,6 +91,7 @@ namespace MoviesProjectMini.Models
                         Name = "KHÓC CÙNG EM",
 
                         Title = "Mr. Siro x Gray x Wind (Official Music Video)",
+                        Category = "Hot",
 
                         NameUser = "Mr.Siro Official",
 
@@ -102,6 +107,7 @@ namespace MoviesProjectMini.Models
                         Name = "Buồn Thì Cứ Khóc Đi",
 
                         Title = "Lynk Lee | Official MV",
+                        Category = "Rap",
 
                         NameUser = "Lynk Lee Official",
 
@@ -117,7 +123,7 @@ namespace MoviesProjectMini.Models
                         Name = "CHIỀU THU HỌA BÓNG NÀNG",
 
                         Title = "DATKAA x QT BEATZ | OFFICIAL MUSIC VIDEO",
-
+                        Category = "Rap",
                         NameUser = "DatKaa Official",
 
                         Views = 23226236,
@@ -132,7 +138,7 @@ namespace MoviesProjectMini.Models
                         Name = "SÓNG GIÓ",
 
                         Title = "OFFICIAL MUSIC VIDEO",
-
+                        Category = "Hot",
                         NameUser = "J97",
 
                         Views = 123226236,
@@ -147,7 +153,7 @@ namespace MoviesProjectMini.Models
                         Name = "Jack | Hoa Hải Đường",
 
                         Title = "GOfficial Music Video",
-
+                        Category = "Hot",
                         NameUser = "J97",
 
                         Views = 623826236,
@@ -162,6 +168,7 @@ namespace MoviesProjectMini.Models
                         Name = "Noo Phước Thịnh",
 
                         Title = "Gạt Đi Nước Mắt ft. Tonny Việt",
+                        Category = "Rap",
 
                         NameUser = "Noo Phước Thịnh",
 
@@ -177,6 +184,7 @@ namespace MoviesProjectMini.Models
                          Name = "Đen - Lối Nhỏ",
 
                          Title = "ft. Phương Anh Đào (M/V)",
+                         Category = "Hot",
 
                          NameUser = "Đen Vâu Official",
 
@@ -192,6 +200,7 @@ namespace MoviesProjectMini.Models
                         Name = "Jack | Hoa Hải Đường",
 
                         Title = "Official Music Video",
+                        Category = "Hot",
 
                         NameUser = "J97",
 

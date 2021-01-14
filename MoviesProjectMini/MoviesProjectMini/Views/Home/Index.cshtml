@@ -2,7 +2,7 @@
 @model MoviesListViewModel
 @foreach (var p in Model.Movies)
 {
-    <partial name="component/ProductSummary" model="p" />
+    <partial name="component/MovieSummary" model="p" />
 }
 
 <div page-model="@Model.PagingInfo" page-action="Index" class="col-12 box-pageLink btn-group"

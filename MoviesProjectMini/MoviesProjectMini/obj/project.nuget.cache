@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BcZ3mOVK/E3fslNWNvG3TQkkdxLM+EW6nBL50nD1L6SpoFGaPeA/XSgvqpoZvBUuMy2VymVvzttolBjldGAxxA==",
+  "dgSpecHash": "2OWKcyNQqIOnJDmFrXQYtqdMhDTpWPGAukBYopUBaswroGbL3gyzP6j2JK77Cxdt++ut241/z7KWhtNY88LHYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pc\\Downloads\\practiceASPCoreMVC-master\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
+  "projectFilePath": "C:\\Users\\Pc\\Documents\\GitHub\\practiceASPCoreMVC\\MoviesProjectMini\\MoviesProjectMini\\MoviesProjectMini.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Pc\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

@@ -13,9 +13,11 @@ namespace MoviesProjectMini.Models
 
         public string Title { get; set; }
 
+        public string Category { get; set; }
+
         public string NameUser { get; set; }
 
-        public float Views { get; set; }
+        public int Views { get; set; }
 
         public string Time { get; set; }
 

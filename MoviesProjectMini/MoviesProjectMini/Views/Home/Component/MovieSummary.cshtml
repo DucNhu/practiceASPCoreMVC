@@ -2,11 +2,11 @@
 
 <div class="col-6 col-sm-6 col-md-4 p-4 mb-4 movie--item">
     <div class="card">
-        @*<iframe src="@Model.link" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-                encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="20rem"></iframe>*@
+        <iframe src="@Model.link" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="card-body">
             <h6 class="card-title box-title">@Model.Name | <span>@Model.Title</span></h6>
-            <p class="card-text"><a href=@Model.link>View Now</a><br />@Model.Price.ToString("c")</p>
+            <p class="card-text"><a href=@Model.link>View Now</a></p>
             <p>@Model.Views vies • @Model.Time</p>
         </div>
     </div>
