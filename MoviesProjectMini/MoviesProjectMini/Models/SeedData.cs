@@ -36,7 +36,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "2 month ago",
 
-                        link = "https://www.youtube.com/watch?v=X-GCJwz4PnY",
+                        link = "https://www.youtube.com/embed/watch?v=X-GCJwz4PnY",
                     },
                     new Movie
                     {
@@ -52,7 +52,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "2 month ago",
 
-                        link = "https://www.youtube.com/watch?v=dZQ1RAyqhs8",
+                        link = "https://www.youtube.com/embed/watch?v=dZQ1RAyqhs8",
                     },
                     new Movie
                     {
@@ -68,7 +68,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "2 month ago",
 
-                        link = "https://www.youtube.com/watch?v=zENVcKkqZWg",
+                        link = "https://www.youtube.com/embed/watch?v=zENVcKkqZWg",
                     },
                     new Movie
                     {
@@ -83,7 +83,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "2 month ago",
 
-                        link = "https://youtu.be/EXpdUgk5P_w",
+                        link = "https://youtu.be/embed/EXpdUgk5P_w",
                     },
                     new Movie
                     {
@@ -99,7 +99,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "2 month ago",
 
-                        link = "https://www.youtube.com/watch?v=X-GCJwz4PnY",
+                        link = "https://www.youtube.com/embed/watch?v=X-GCJwz4PnY",
                     },
                     new Movie
                     {
@@ -115,7 +115,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "9 month ago",
 
-                        link = "https://www.youtube.com/watch?v=X-GCJwz4PnY",
+                        link = "https://www.youtube.com/embed/watch?v=X-GCJwz4PnY",
                     },
                     new Movie
                     {
@@ -130,7 +130,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "1 month ago",
 
-                        link = "https://www.youtube.com/watch?v=PlVlWl8kKmg",
+                        link = "https://www.youtube.com/embed/watch?v=PlVlWl8kKmg",
                     },
                     new Movie
                     {
@@ -145,7 +145,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "8 month ago",
 
-                        link = "https://www.youtube.com/watch?v=j8U06veqxdU",
+                        link = "https://www.youtube.com/embed/watch?v=j8U06veqxdU",
                     },
                     new Movie
                     {
@@ -160,7 +160,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "1 month ago",
 
-                        link = "https://www.youtube.com/watch?v=Bhg-Gw953b0",
+                        link = "https://www.youtube.com/embed/watch?v=Bhg-Gw953b0",
                     },
                     new Movie
                     {
@@ -176,7 +176,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "4 year ago",
 
-                        link = "https://www.youtube.com/watch?v=bD3B1I3Zgog",
+                        link = "https://www.youtube.com/embed/watch?v=bD3B1I3Zgog",
                     },
                      new Movie
                      {
@@ -192,7 +192,7 @@ namespace MoviesProjectMini.Models
 
                          Time = "1 year ago",
 
-                         link = "https://www.youtube.com/watch?v=KKc_RMln5UY",
+                         link = "https://www.youtube.com/embed/watch?v=KKc_RMln5UY",
                      },
                     new Movie
                     {
@@ -208,7 +208,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "1 month ago",
 
-                        link = "https://www.youtube.com/watch?v=Bhg-Gw953b0",
+                        link = "https://www.youtube.com/embed/watch?v=Bhg-Gw953b0",
                     });
                 context.SaveChanges();
             }

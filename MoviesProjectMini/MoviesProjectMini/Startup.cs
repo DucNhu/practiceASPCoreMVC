@@ -21,7 +21,7 @@ namespace MoviesProjectMini
         }
 
         private IConfiguration Configuration { get; set; }
-        
+
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -56,14 +56,28 @@ namespace MoviesProjectMini
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                //endpoints.MapControllerRoute(
+                //    name: "default",
+                //    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapControllerRoute("catepage",
+                    "{category}/Page{productPage:int}",
+                    new { Controller = "Home", action = "Index", productPage = 1 });
+
+                endpoints.MapControllerRoute("page",
+                "Page{productPage:int}",
+                new { Controller = "Home", action = "Index", productPage = 1 });
+
+                endpoints.MapControllerRoute("category",
+                "{category}",
+                new { Controller = "Home", action = "Index", productPage = 1 });
+
                 endpoints.MapControllerRoute("pagination",
-                    "Movies/Page{productPage}",
-                    new { Controllers = "Home", action = "Index" });
+                "Product/Page{productPage}",
+                new { Controller = "Home", action = "Index", productPage = 1 });
                 endpoints.MapDefaultControllerRoute();
             });
+
             SeedData.EnsurePopulated(app);
         }
     }

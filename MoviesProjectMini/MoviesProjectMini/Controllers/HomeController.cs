@@ -21,10 +21,11 @@ namespace MoviesProjectMini.Controllers
             repository = repo;
         }
 
-        public ViewResult Index(int ProductPage = 1)
+        public ViewResult Index(string category, int ProductPage = 1)
         => View(new MoviesListViewModel
         {
             Movies = repository.Movies
+            .Where(p => category == null || p.Category == category)
             .OrderBy(p => p.MovieID)
             .Skip((ProductPage - 1) * PageSize)
             .Take(PageSize),

@@ -25,6 +25,7 @@
     ".NETCoreApp,Version=v5.0": {
       "MoviesProjectMini/1.0.0": {
         "dependencies": {
+          "CdnJs": "0.0.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0",
           "Microsoft.EntityFrameworkCore.Design": "3.1.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -318,6 +319,20 @@
           "MoviesProjectMini.dll": {}
         }
       },
+      "CdnJs/0.0.0.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "4.0.5"
+        },
+        "runtime": {
+          "lib/net40/CdnJs.dll": {
+            "assemblyVersion": "0.0.0.1",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net40/CdnJs.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -528,6 +543,17 @@
         "dependencies": {
           "System.Security.AccessControl": "4.5.0",
           "System.Security.Principal.Windows": "4.5.0"
+        }
+      },
+      "Newtonsoft.Json/4.0.5": {
+        "runtime": {
+          "lib/net40/Newtonsoft.Json.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.0.5.14411"
+          }
+        },
+        "compile": {
+          "lib/net40/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.native.System/4.3.0": {
@@ -2805,6 +2831,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "CdnJs/0.0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DsnxZ7rMY6llEqdh1yiEJfKLdZ4lTI48p6SZXrCOjzk8gULzxUqwzEVKs+6x1v1j20TuVqkyQ8qX9PROdrEAPg==",
+      "path": "cdnjs/0.0.0.1",
+      "hashPath": "cdnjs.0.0.0.1.nupkg.sha512"
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -2979,6 +3012,13 @@
       "sha512": "sha512-+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/4.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zqfXLVCuY0Hi1E2u4re+yX1B0MTIjMLyQX3qkdQphGA8tEB63WimCX6uWFw/CBif5YHkdUxdv/47HPdZsWjSmQ==",
+      "path": "newtonsoft.json/4.0.5",
+      "hashPath": "newtonsoft.json.4.0.5.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

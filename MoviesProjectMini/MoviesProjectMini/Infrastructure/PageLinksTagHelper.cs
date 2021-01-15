@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using MoviesProjectMini.Models.ViewModels;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace MoviesProjectMini.Infrastructure
@@ -24,10 +25,12 @@ namespace MoviesProjectMini.Infrastructure
 
         public string PageAction { get; set; }
 
+        [HtmlAttributeName(DictionaryAttributePrefix = "page-url-")]
+        public Dictionary<string, object> PageUrlvalues { get; set; } = new Dictionary<string, object>();
+
+        public PagingInfo PageModel { get; set; }//  đã đjnh nghĩa ở paginginfo.cs
+
         public bool PageClassesEnabled { get; set; }
-
-
-        public PagingInfo PageModel { get; set; } //  đã đjnh nghĩa ở paginginfo.cs
 
         public string PageClass { get; set; }
         public string PageClassNormal { get; set; }
@@ -41,6 +44,8 @@ namespace MoviesProjectMini.Infrastructure
             for (int i = 1; i <= PageModel.TotalPages; i++)
             {
                 TagBuilder tag = new TagBuilder("a");
+                PageUrlvalues["productPage"] = i;
+                tag.Attributes["href"] = UrlHelper.Action(PageAction, PageUrlvalues);
                 tag.Attributes["href"] = UrlHelper.Action(PageAction, new { productPage = i });
                 if (PageClassesEnabled)
                 {

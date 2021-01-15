@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "CdnJs/0.0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "4.0.5"
+        },
+        "compile": {
+          "lib/net40/CdnJs.dll": {}
+        },
+        "runtime": {
+          "lib/net40/CdnJs.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
         "type": "package",
         "compile": {
@@ -325,6 +337,15 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "Newtonsoft.Json/4.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.native.System/4.3.0": {
@@ -1272,6 +1293,18 @@
     }
   },
   "libraries": {
+    "CdnJs/0.0.0.1": {
+      "sha512": "DsnxZ7rMY6llEqdh1yiEJfKLdZ4lTI48p6SZXrCOjzk8gULzxUqwzEVKs+6x1v1j20TuVqkyQ8qX9PROdrEAPg==",
+      "type": "package",
+      "path": "cdnjs/0.0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cdnjs.0.0.0.1.nupkg.sha512",
+        "cdnjs.nuspec",
+        "lib/net40/CdnJs.dll"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
       "sha512": "1Am6l4Vpn3/K32daEqZI+FFr96OlZkgwK2LcT3pZ2zWubR5zTPW3/FkO1Rat9kb7oQOa4rxgl9LJHc5tspCWfg==",
       "type": "package",
@@ -1806,6 +1839,35 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Newtonsoft.Json/4.0.5": {
+      "sha512": "zqfXLVCuY0Hi1E2u4re+yX1B0MTIjMLyQX3qkdQphGA8tEB63WimCX6uWFw/CBif5YHkdUxdv/47HPdZsWjSmQ==",
+      "type": "package",
+      "path": "newtonsoft.json/4.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.pdb",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.pdb",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.pdb",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/sl3-wp/Newtonsoft.Json.dll",
+        "lib/sl3-wp/Newtonsoft.Json.pdb",
+        "lib/sl3-wp/Newtonsoft.Json.xml",
+        "lib/sl4-windowsphone71/Newtonsoft.Json.dll",
+        "lib/sl4-windowsphone71/Newtonsoft.Json.pdb",
+        "lib/sl4-windowsphone71/Newtonsoft.Json.xml",
+        "lib/sl4/Newtonsoft.Json.dll",
+        "lib/sl4/Newtonsoft.Json.pdb",
+        "lib/sl4/Newtonsoft.Json.xml",
+        "newtonsoft.json.4.0.5.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -4904,6 +4966,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "CdnJs >= 0.0.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0",
       "Microsoft.EntityFrameworkCore.design >= 3.1.0"
     ]
@@ -4951,6 +5014,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "CdnJs": {
+            "target": "Package",
+            "version": "[0.0.0.1, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[3.1.0, )"
@@ -4981,5 +5048,27 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CdnJs 0.0.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CdnJs",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json 4.0.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
