@@ -100,6 +100,8 @@ namespace MoviesProjectMini.Models
                         Time = "2 month ago",
 
                         link = "https://www.youtube.com/embed/watch?v=X-GCJwz4PnY",
+
+                        price = 2000
                     },
                     new Movie
                     {
@@ -116,6 +118,7 @@ namespace MoviesProjectMini.Models
                         Time = "9 month ago",
 
                         link = "https://www.youtube.com/embed/watch?v=X-GCJwz4PnY",
+                        price = 2000
                     },
                     new Movie
                     {
@@ -131,6 +134,7 @@ namespace MoviesProjectMini.Models
                         Time = "1 month ago",
 
                         link = "https://www.youtube.com/embed/watch?v=PlVlWl8kKmg",
+                        price = 2000
                     },
                     new Movie
                     {
@@ -146,6 +150,7 @@ namespace MoviesProjectMini.Models
                         Time = "8 month ago",
 
                         link = "https://www.youtube.com/embed/watch?v=j8U06veqxdU",
+                        price = 2000
                     },
                     new Movie
                     {
@@ -161,6 +166,7 @@ namespace MoviesProjectMini.Models
                         Time = "1 month ago",
 
                         link = "https://www.youtube.com/embed/watch?v=Bhg-Gw953b0",
+                        price = 2000
                     },
                     new Movie
                     {
@@ -177,6 +183,7 @@ namespace MoviesProjectMini.Models
                         Time = "4 year ago",
 
                         link = "https://www.youtube.com/embed/watch?v=bD3B1I3Zgog",
+                        price = 2000
                     },
                      new Movie
                      {
@@ -193,6 +200,7 @@ namespace MoviesProjectMini.Models
                          Time = "1 year ago",
 
                          link = "https://www.youtube.com/embed/watch?v=KKc_RMln5UY",
+                         price = 2000
                      },
                     new Movie
                     {
@@ -208,7 +216,7 @@ namespace MoviesProjectMini.Models
 
                         Time = "1 month ago",
 
-                        link = "https://www.youtube.com/embed/watch?v=Bhg-Gw953b0",
+                        link = "https://www.youtube.com/embed/watch?v=Bhg-Gw953b0",price = 2000
                     });
                 context.SaveChanges();
             }

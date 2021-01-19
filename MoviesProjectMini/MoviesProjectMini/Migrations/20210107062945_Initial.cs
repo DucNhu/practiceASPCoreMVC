@@ -18,8 +18,8 @@ namespace MoviesProjectMini.Migrations
                     NameUser = table.Column<string>(nullable: true),
                     Views = table.Column<int>(nullable: false),
                     Time = table.Column<string>(nullable: true),
-                    link = table.Column<string>(nullable: true)
-                    //Price = table.Column<decimal>(type: "decimal(8,2)", nullable: false)
+                    link = table.Column<string>(nullable: true),
+                    Price = table.Column<decimal>(type: "decimal(8,2)", nullable: false)
                 },
                 constraints: table =>
                 {

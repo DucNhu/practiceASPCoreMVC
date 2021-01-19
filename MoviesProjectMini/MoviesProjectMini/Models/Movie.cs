@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -22,5 +23,8 @@ namespace MoviesProjectMini.Models
         public string Time { get; set; }
 
         public string link { get; set; }
+
+        [Column(TypeName = "decimal(8,2)")]
+        public decimal price { get; set; }
     }
 }

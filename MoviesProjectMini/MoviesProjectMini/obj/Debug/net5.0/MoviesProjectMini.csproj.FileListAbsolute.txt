@@ -181,6 +181,10 @@ C:\Users\Pc\Documents\GitHub\practiceASPCoreMVC\MoviesProjectMini\MoviesProjectM
 C:\Users\Pc\Documents\GitHub\practiceASPCoreMVC\MoviesProjectMini\MoviesProjectMini\obj\Debug\net5.0\Razor\Views\Home\components\header.cshtml.g.cs
 C:\Users\Pc\Documents\GitHub\practiceASPCoreMVC\MoviesProjectMini\MoviesProjectMini\obj\Debug\net5.0\Razor\Views\Home\components\MovieSummary.cshtml.g.cs
 C:\Users\Pc\Documents\GitHub\practiceASPCoreMVC\MoviesProjectMini\MoviesProjectMini\obj\Debug\net5.0\Razor\Views\Home\components\navigationMenu\default.cshtml.g.cs
-C:\Users\Pc\Documents\GitHub\practiceASPCoreMVC\MoviesProjectMini\MoviesProjectMini\obj\Debug\net5.0\Razor\Views\Home\components\ProductSummary.cshtml.g.cs
 C:\Users\Pc\Documents\GitHub\practiceASPCoreMVC\MoviesProjectMini\MoviesProjectMini\bin\Debug\net5.0\CdnJs.dll
 C:\Users\Pc\Documents\GitHub\practiceASPCoreMVC\MoviesProjectMini\MoviesProjectMini\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Pc\Documents\GitHub\practiceASPCoreMVC\MoviesProjectMini\MoviesProjectMini\obj\Debug\net5.0\Razor\Views\Home\components\MovieDetail.cshtml.g.cs
+C:\Users\Pc\Documents\GitHub\practiceASPCoreMVC\MoviesProjectMini\MoviesProjectMini\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Pc\Documents\GitHub\practiceASPCoreMVC\MoviesProjectMini\MoviesProjectMini\obj\Debug\net5.0\Razor\Pages\_cartLayout.cshtml.g.cs
+C:\Users\Pc\Documents\GitHub\practiceASPCoreMVC\MoviesProjectMini\MoviesProjectMini\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Pc\Documents\GitHub\practiceASPCoreMVC\MoviesProjectMini\MoviesProjectMini\obj\Debug\net5.0\Razor\Pages\Cart.cshtml.g.cs

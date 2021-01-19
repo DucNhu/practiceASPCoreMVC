@@ -6,9 +6,15 @@
                 encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="card-body">
             <h6 class="card-title box-title">@Model.Name | <span>@Model.Title</span></h6>
-            <p class="card-text"><a href=@Model.link>View Now</a></p>
+            <p class="card-text my-2"><a href=@Model.link>View Now</a></p>
             <p>@Model.Views vies • @Model.Time</p>
-            <p>@Model.Category</p>
+            <p class="my-2">@Model.price.ToString("c")</p>
+
+            <form id="@Model.MovieID" method="post" asp-page="/Cart">
+                <input type="hidden" asp-for="MovieID" />
+                <input type="hidden" value="@ViewContext.HttpContext.Request.PathAndQuery()" />
+                <button class="btn btn-outline-info">Add To Cart</button>
+            </form>
         </div>
     </div>
 </div>
